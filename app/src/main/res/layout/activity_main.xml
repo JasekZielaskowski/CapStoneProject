@@ -38,6 +38,38 @@
             android:paddingLeft="140dp"
             android:paddingTop="10dp"/>
 
+        <CheckBox
+            android:id="@+id/burger_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cheese Burger"
+            android:textSize="16sp"
+            android:paddingLeft="24dp"  />
+
+        <CheckBox
+            android:id="@+id/chicken_wings_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Chicken Wings"
+            android:textSize="16sp"
+            android:paddingLeft="24dp"  />
+
+        <CheckBox
+            android:id="@+id/tacos_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tacos"
+            android:textSize="16sp"
+            android:paddingLeft="24dp"  />
+        <CheckBox
+            android:id="@+id/fish_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fried Fish"
+            android:textSize="16sp"
+            android:paddingLeft="24dp"  />
+
+
 
 
 
