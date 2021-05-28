@@ -22,15 +22,8 @@
             android:paddingLeft="120dp"
             android:textSize="15dp"
             android:text="Jasek's Food Place"
-            android:textColor="@android:color/red"/>
+            android:textColor="@android:color/black"/>
 
-        <EditText
-            android:id="@+id/user_input_name_view"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:hint="Name"
-            android:inputType="textCapWords"
-            android:textColor="@android:color/red"/>
 
         <TextView
             android:layout_width="wrap_content"
@@ -39,8 +32,7 @@
             android:textSize="15dp"
             android:paddingLeft="140dp"
             android:paddingTop="10dp"
-            android:textColor="@android:color/red"/>
-
+            android:textColor="@android:color/black"/>
         <CheckBox
             android:id="@+id/burger_checkbox"
             android:layout_width="wrap_content"
@@ -48,7 +40,7 @@
             android:text="Cheese Burger"
             android:textSize="16sp"
             android:paddingLeft="24dp"
-            android:textColor="@android:color/red"/>
+            android:textColor="@android:color/black"/>
 
         <CheckBox
             android:id="@+id/chicken_wings_checkbox"
@@ -57,7 +49,7 @@
             android:text="Chicken Wings"
             android:textSize="16sp"
             android:paddingLeft="24dp"
-            android:textColor="@android:color/red"/>
+            android:textColor="@android:color/black"/>
 
         <CheckBox
             android:id="@+id/tacos_checkbox"
@@ -66,7 +58,7 @@
             android:text="Tacos"
             android:textSize="16sp"
             android:paddingLeft="24dp"
-            android:textColor="@android:color/red"/>
+            android:textColor="@android:color/black"/>
         <CheckBox
             android:id="@+id/fish_checkbox"
             android:layout_width="wrap_content"
@@ -74,7 +66,7 @@
             android:text="Fried Fish"
             android:textSize="16sp"
             android:paddingLeft="24dp"
-            android:textColor="@android:color/red"/>
+            android:textColor="@android:color/black"/>
 
         <TextView
             android:id="@+id/price_title"
@@ -83,7 +75,7 @@
             android:layout_marginTop="16dp"
             android:text="Price"
             android:textAllCaps="true"
-            android:textColor="@android:color/red"/>
+            android:textColor="@android:color/black"/>
 
         <TextView
             android:id="@+id/order_summary_text_view"
@@ -91,7 +83,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
             android:text="$10"
-            android:textColor="@android:color/red"
+            android:textColor="@android:color/black"
             android:textSize="16sp" />
 
         <Button
@@ -100,7 +92,14 @@
             android:layout_marginTop="16dp"
             android:onClick="submitOrder"
             android:text="Order"
-            android:textColor="@android:color/red"/>
+            android:textColor="@android:color/black"/>
+        <EditText
+            android:id="@+id/user_input_name_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Name"
+            android:inputType="textCapWords"
+            android:textColor="@android:color/black"/>
 
 
 

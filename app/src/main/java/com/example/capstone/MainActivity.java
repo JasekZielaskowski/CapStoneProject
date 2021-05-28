@@ -3,6 +3,10 @@ package com.example.capstone;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.util.Log;
+import android.view.View;
+import android.widget.CheckBox;
+import android.widget.EditText;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -13,31 +17,26 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
+    public void submitOrder(View view) {
+        EditText nameField = (EditText) findViewById(R.id.user_input_name_view);
+        String name = nameField.getText().toString();
+        Log.v("MainActivity", "Name:" + name);
 
+        CheckBox burgerCheckBox = (CheckBox) findViewById(R.id.burger_checkbox);
+        boolean hasBurger = burgerCheckBox.isChecked();
+        Log.v("MainActivity", "Cheeseburger: " + hasBurger);
 
-    int quantity = 0;
-    private int basePrice;
+        CheckBox chickenCheckBox = (CheckBox) findViewById(R.id.chicken_wings_checkbox);
+        boolean hasChicken = chickenCheckBox.isChecked();
+        Log.v("MainActivity", "Chicken wings: " + hasChicken);
 
+        CheckBox tacosCheckBox = (CheckBox) findViewById(R.id.tacos_checkbox);
+        boolean hasTacos = tacosCheckBox.isChecked();
+        Log.v("MainActivity", "Tacos: " + hasTacos);
 
-    private int calculatePrice(boolean chicken_wings_checkbox, boolean burger_checkbox, boolean tacos_checkbox, boolean fish_checkbox) {
-        int basePrice = 0;
-        if (chicken_wings_checkbox) {
-            basePrice = basePrice + 10;
-        }
-        if (burger_checkbox) {
-            basePrice = basePrice + 7;
-        }
-        if (tacos_checkbox) {
-            basePrice = basePrice + 9;
-        }
-        if (fish_checkbox) {
-            basePrice = basePrice + 12;
-        }
-        return quantity * basePrice;
+        CheckBox fishCheckBox = (CheckBox) findViewById(R.id.fish_checkbox);
+        boolean hasFish = fishCheckBox.isChecked();
+        Log.v("MainActivity", "Fried Fish: " + hasFish);
     }
-
-
-
-
-
 }
+
