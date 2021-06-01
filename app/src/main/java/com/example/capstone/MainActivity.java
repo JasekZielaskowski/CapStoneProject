@@ -2,6 +2,7 @@ package com.example.capstone;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -38,5 +39,11 @@ public class MainActivity extends AppCompatActivity {
         boolean hasFish = fishCheckBox.isChecked();
         Log.v("MainActivity", "Fried Fish: " + hasFish);
     }
+
+    public void Info(View view) {
+        Intent i = new Intent(this,Info.class);
+        startActivity(i);
+    }
+
 }
 

@@ -101,6 +101,23 @@
             android:inputType="textCapWords"
             android:textColor="@android:color/black"/>
 
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Extras"
+            android:textSize="15dp"
+            android:paddingLeft="140dp"
+            android:paddingTop="10dp"
+            android:textColor="@android:color/black"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:onClick="Info"
+            android:text="Contact Info"
+            android:textColor="@android:color/black"/>
+
 
 
 
