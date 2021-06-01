@@ -45,5 +45,11 @@ public class MainActivity extends AppCompatActivity {
         startActivity(i);
     }
 
+    public void Reviews(View view) {
+        Intent i = new Intent(this,Reviews.class);
+        startActivity(i);
+    }
+
+
 }
 
