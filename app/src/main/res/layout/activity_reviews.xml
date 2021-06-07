@@ -27,4 +27,19 @@
         android:textColor="@android:color/black"
         tools:ignore="MissingConstraints" />
 
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Name"
+        android:inputType="textCapWords"
+        android:textColor="@android:color/black"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:hint="Start Typing....."
+        android:inputType="textCapWords"
+        android:textColor="@android:color/black"/>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
