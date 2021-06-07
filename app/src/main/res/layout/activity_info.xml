@@ -28,6 +28,33 @@
         android:textColor="@android:color/black"
         tools:ignore="MissingConstraints" />
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginTop="40dp"
+        android:text="Work Email: 02jasek.zielaskowski@gulllakecs.org"
+        android:textColor="@android:color/black"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginTop="80dp"
+        android:text="Personal Email: jasekzielaskowski@gmail.com"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginTop="120dp"
+        android:text="Phone Number: 269 304 7937"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
+        tools:ignore="MissingConstraints" />
+
+
 
 
 
