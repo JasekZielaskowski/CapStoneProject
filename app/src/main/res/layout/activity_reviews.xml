@@ -42,4 +42,11 @@
         android:inputType="textCapWords"
         android:textColor="@android:color/black"/>
 
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:src="@drawable/inside"
+        android:layout_marginTop="500dp"
+        tools:ignore="MissingConstraints" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
