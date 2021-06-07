@@ -54,6 +54,14 @@
         android:textSize="16sp"
         tools:ignore="MissingConstraints" />
 
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:src="@drawable/inside"
+        android:layout_marginTop="200dp"
+        tools:ignore="MissingConstraints" />
+
+
 
 
 
