@@ -20,7 +20,7 @@
             android:layout_marginBottom="16dp"
             android:layout_marginTop="10dp"
             android:paddingLeft="120dp"
-            android:textSize="15dp"
+            android:textSize="25dp"
             android:text="Jasek's Food Place"
             android:textColor="@android:color/black"/>
 
@@ -29,7 +29,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Main Courses"
-            android:textSize="15dp"
+            android:textSize="25dp"
             android:paddingLeft="140dp"
             android:paddingTop="10dp"
             android:textColor="@android:color/black"/>
